@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   background-color: white;
-  position: fixed; /* Make the navigation bar fixed */
+  position: fixed;
   width: 100%;
   z-index: 1000;
 }
@@ -132,7 +132,7 @@ ul .s a:hover {
   font-size: 15px;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: blueviolet;
+  background-color: darkcyan;
   white-space: nowrap;
   display: block;
   text-align: center;
@@ -143,8 +143,8 @@ ul .s a:hover {
 }
 
 .resum:hover {
-  color: red;
-  background-color: #000000;
+  /* color: red; */
+  background-color: white;
   border-radius: 20px;
   font-size: 18px;
 }
@@ -165,7 +165,6 @@ ul .s a:hover {
   padding: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 .self {
   width: 450px;
   height: 480px;
@@ -246,17 +245,17 @@ html {
 
 .firstbox {
   margin-top: 200px;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
 }
 
 .secondbox {
   margin-top: 200px;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
 }
 
 .thirdbox {
-  padding-bottom: 200px;
   margin-top: 200px;
+  /* padding-bottom: 200px; */
 }
 
 .container8 {
@@ -423,12 +422,12 @@ html {
 
 @keyframes animate {
   0% {
-    width: 0%; /* Initial width */
-    background-color: darkmagenta; /* Initial background color */
+    width: 0%;
+    background-color: darkmagenta;
   }
   90% {
-    width: 90%; /* Final width */
-    background-color: green; /* Final background color */
+    width: 90%;
+    background-color: green;
   }
 }
 
@@ -455,12 +454,12 @@ html {
 
 @keyframes animate2 {
   0% {
-    width: 0%; /* Initial width */
-    background-color: darkmagenta; /* Initial background color */
+    width: 0%;
+    background-color: darkmagenta;
   }
   80% {
-    width: 80%; /* Expand the width */
-    background-color: yellowgreen; /* Change background color */
+    width: 80%;
+    background-color: yellowgreen;
   }
 }
 
@@ -487,12 +486,12 @@ html {
 
 @keyframes animate3 {
   0% {
-    width: 0%; /* Initial width */
-    background-color: darkmagenta; /* Initial background color */
+    width: 0%;
+    background-color: darkmagenta;
   }
   70% {
-    width: 70%; /* Expand the width */
-    background-color: burlywood; /* Change background color */
+    width: 70%;
+    background-color: burlywood;
   }
 }
 
@@ -843,18 +842,18 @@ h3 {
   }
 
   .container6 {
-    min-height: 52vh;
+    min-height: 100vh;
   }
 
   .container5 {
-    min-height: 50vh;
+    min-height: 100vh;
   }
 
   .container4 {
-    min-height: 50vh;
+    min-height: 100vh;
   }
   .container2 {
-    min-height: 50vh;
+    min-height: 100vh;
   }
 
   .container9 {
@@ -866,7 +865,6 @@ h3 {
   }
 
   .bar2 {
-   
     margin-top: 65px;
   }
   .self {
@@ -880,32 +878,30 @@ h3 {
     margin: 0px 0px 0px 420px;
   }
 
-  .one p{
+  .one p {
     font-size: 20px;
     text-align: center;
   }
 
-  .two p{
+  .two p {
     font-size: 20px;
     text-align: center;
   }
 
-  .three p{
+  .three p {
     font-size: 20px;
     text-align: center;
   }
 
-  .four p{
+  .four p {
     font-size: 20px;
     text-align: center;
   }
 
-  .five p{
+  .five p {
     font-size: 20px;
     text-align: center;
   }
-
-
 }
 
 @media (max-width: 1024px) {
@@ -963,7 +959,6 @@ h3 {
   }
 
   .bar2 {
-   
     margin-top: 65px;
   }
 
@@ -972,12 +967,30 @@ h3 {
     height: 435px;
     margin-top: 125px;
   }
+
   .first {
     margin-bottom: 80px;
   }
 
   .second {
     margin-bottom: 80px;
+  }
+
+  .para {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .container2 {
+    min-height: 100vh;
+  }
+
+  .container3 {
+    min-height: 100vh;
+  }
+
+  .laptp {
+    min-height: 100vh;
   }
 }
 
@@ -1001,7 +1014,6 @@ h3 {
     margin: 0px 0px 0px 185px;
   }
 
- 
   .hello {
     font-size: medium;
   }
@@ -1153,10 +1165,9 @@ h3 {
     margin-top: 60px;
   }
 
- 
-
   .para {
-    font-size: medium;
+    font-size: 15px;
+    margin-bottom: 30px;
   }
 
   h1 {
@@ -1171,11 +1182,19 @@ h3 {
   }
 
   .container4 {
-    min-height: 40vh;
+    min-height: 100vh;
   }
 
-  .container5{
-    min-height: 42vh;
+  .container5 {
+    min-height: 100vh;
+  }
+
+  .container2 {
+    min-height: 100vh;
+  }
+
+  .laptp {
+    min-height: 100vh;
   }
 
   .self {
@@ -1189,38 +1208,31 @@ h3 {
     font-size: 13px;
     margin-top: 110px;
   }
- .one p{
+  .one p {
     font-size: 17px;
     text-align: center;
   }
 
-  .two p{
+  .two p {
     font-size: 17px;
     text-align: center;
   }
 
-  .three p{
+  .three p {
     font-size: 17px;
     text-align: center;
   }
 
-  .four p{
+  .four p {
     font-size: 17px;
     text-align: center;
   }
 
-  .five p{
+  .five p {
     font-size: 17px;
     text-align: center;
   }
-
-
- 
 }
-.container2 {
-  min-height: 40vh;
-}
-
 
 @media (max-width: 576px) {
   a {
@@ -1249,7 +1261,6 @@ h3 {
     font-size: smaller;
   }
 
-
   .resum {
     top: 53%;
     font-size: 6px;
@@ -1257,13 +1268,10 @@ h3 {
   }
 
   .resum:hover {
-    color: red;
-    background-color: #000000;
+    background-color: white;
     border-radius: 20px;
     font-size: 9px;
   }
-
-
 
   .intro {
     color: black;
@@ -1288,26 +1296,19 @@ h3 {
   .bar {
     width: 45%;
     border-radius: 5px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .bar2 {
     width: 45%;
     border-radius: 5px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   h1 {
     font-size: medium;
-  }
-
-  .qual {
-    font-size: small;
-  }
-  .it {
-    font-size: xx-small;
   }
 
   .bar p {
@@ -1362,7 +1363,8 @@ h3 {
   }
 
   .para {
-    font-size: small;
+    font-size: 13.5px;
+    margin-bottom: 30px;
   }
 
   .gym {
@@ -1458,83 +1460,101 @@ h3 {
   }
 
   .container6 {
-    min-height: 50vh;
+    min-height: 100vh;
   }
 
   .container5 {
-    min-height: 50vh;
+    min-height: 100vh;
   }
 
-  /* .container4 {
-    min-height: 40vh;
-  } */
+  .container3 {
+    min-height: 100vh;
+  }
+
+  .container4 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .container4 h1 {
+    text-align: center;
+    width: 100%;
+  }
 
   .firstbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
-    padding-bottom: 100px;
-  }
-  
-  .secondbox {
-    margin-top: 100px;
-    padding-bottom: 100px;
-  }
-  
-  .thirdbox {
-    margin-top: 100px;
-    padding-bottom: 100px;
   }
 
+  .secondbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .thirdbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .qual {
+    font-size: small;
+    margin-bottom: 3px;
+  }
+  .it {
+    font-size: xx-small;
+    margin-top: 6px;
+  }
 
   .container2 {
-    min-height: 0vh;
+    min-height: 100vh;
   }
 
   .laptp {
     opacity: 0.7;
     width: 100%;
-    min-height: 0vh;
+    min-height: 100vh;
   }
 
-  .e {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3;
-    background-size: cover;
-  }
-
-  .one p{
+  .one p {
     font-size: 15px;
     text-align: center;
   }
 
-  .two p{
+  .two p {
     font-size: 15px;
     text-align: center;
   }
 
-  .three p{
+  .three p {
     font-size: 15px;
     text-align: center;
   }
 
-  .four p{
+  .four p {
     font-size: 15px;
     text-align: center;
   }
 
-  .five p{
+  .five p {
     font-size: 15px;
     text-align: center;
   }
-  h1{
-    font-size: 14px;
+
+  h3 {
+    font-size: 16px;
   }
-
- h3{
-  font-size: 16px;
- }
-
 }
 
 @media (max-width: 426px) {
@@ -1580,22 +1600,30 @@ h3 {
 
   .percent {
     display: inline-block;
-    margin: 0px 0px 0px 105px;
+    margin: 0px 0px 0px 170px;
     font-size: small;
   }
 
+  .container5 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: antiquewhite;
+  }
+
   .bar {
-    width: 45%;
-    border-radius: 5px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    width: 60%;
+    margin: 40px 0 0 70px;
   }
 
   .bar2 {
-    width: 45%;
-    border-radius: 5px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    width: 60%;
+    margin: -65px 0 0px 70px;
+  }
+
+  .container5 h1 {
+    text-align: center;
+    width: 100%;
   }
 
   .qual {
@@ -1617,15 +1645,31 @@ h3 {
 
   .intro {
     color: black;
-    margin-top: 52px;
+    margin-top: 0px;
     font-size: 8px;
-    padding: 40px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
   }
 
   .self {
-    width: 400px;
-    height: 220px;
-    margin-top: 80px;
+    width: 300px;
+    height: 320px;
+    margin: 0px 0 0 65px;
+  }
+
+  .container3 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .container3 h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 560px;
   }
 
   a {
@@ -1646,62 +1690,71 @@ h3 {
     font-size: xx-small;
   }
   .name {
-    top: 32%;
+    top: 30%;
     font-size: xx-small;
   }
 
   .designation {
-    margin: -5px 0px 10px 5px;
+    margin: -32px 0px 10px 5px;
     font-size: xx-small;
   }
   .resum {
-    top: 53%;
+    top: 42%;
     font-size: 5.5px;
     padding: 5px;
   }
 
   .resum:hover {
-    color: red;
-    background-color: #000000;
+    background-color: white;
     border-radius: 20px;
     font-size: 7px;
   }
+
   .para {
-    margin-bottom: 20px;
-    font-size: xx-small;
+    margin-bottom: 25px;
+    font-size: 13px;
   }
 
-
   .first {
-    margin-top: 80px;
-    width: 600px;
-    height: 180px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 60px;
   }
 
   .second {
-    margin-top: 80px;
-    width: 600px;
-    height: 180px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin: -3px 0 0 0;
   }
 
-  h5{
-    font-weight: 900;
+  .container6 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: burlywood;
+    padding-bottom: 90px;
+    min-height: 100vh;
   }
-  h1{
+
+  .container6 h1 {
+    width: 100%;
+  }
+
+  h5 {
+    font-weight: 900;
+    text-align: center;
+  }
+  h1 {
     font-size: 12px;
   }
-  h3{
+  h3 {
     font-size: 13px;
-   }
+  }
 }
 
-
-
-
-@media (max-width: 376px){
-
+@media (max-width: 376px) {
   a {
     font-size: 5px;
   }
@@ -1721,31 +1774,10 @@ h3 {
     margin: 0px 0px 0px 85px;
     font-size: small;
   }
- 
- .para {
-    margin-bottom: 18px;
-    font-size: xx-small;
-  }
 
-
-  .first {
-    margin-top: 80px;
-    width: 400px;
-    height: 160px;
-    font-size: 10px;
-  }
-
-  .second {
-    margin-top: 80px;
-    width: 450px;
-    height: 160px;
-    font-size: 10px;
-  }
-  
-  h5{
+  h5 {
     font-weight: 900;
   }
-
 
   .contact {
     margin: 105px 0px 0px 170px;
@@ -1754,8 +1786,6 @@ h3 {
   .contact p {
     margin-bottom: 20px;
     margin-top: 6px;
-    /* margin-right: 20px; */
-    
     font-size: smaller;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
@@ -1789,16 +1819,64 @@ h3 {
     height: 35px;
     font-size: small;
   }
-  h1{
+  h1 {
     font-size: 11px;
   }
+
+  .intro {
+    color: black;
+    margin-top: 0px;
+    font-size: 8px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .self {
+    width: 280px;
+    height: 300px;
+    margin: 0px 0 0 50px;
+  }
+
+  .percent {
+    display: inline-block;
+    margin: 0px 0px 0px 140px;
+    font-size: small;
+  }
+
+  .para {
+    margin-bottom: 25px;
+    font-size: 13px;
+  }
+
+  .first {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .second {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin: -3px 0 0 0;
+  }
+
+  .container6 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: burlywood;
+    padding-bottom: 90px;
+    min-height: 100vh;
+  }
+
+  .container6 h1 {
+    width: 100%;
+  }
 }
-  
 
-
-@media (max-width: 320px){
-
-
+@media (max-width: 320px) {
   a {
     font-size: 4px;
   }
@@ -1817,95 +1895,99 @@ h3 {
     font-size: 6px;
   }
   .name {
-    top: 32%;
+    top: 28%;
     font-size: 7px;
   }
 
   .designation {
-    margin: -5px 0px 10px 5px;
+    margin: -45px 0px 10px 5px;
     font-size: 7px;
   }
   .resum {
-    top: 53%;
+    top: 39%;
     font-size: 5px;
     padding: 5px;
   }
 
   .resum:hover {
-    color: red;
-    background-color: #000000;
+    background-color: white;
     border-radius: 20px;
     font-size: 6px;
   }
 
-  .intro {
-    color: black;
-    margin-top: 52px;
-    font-size: 6px;
-    padding: 40px;
+  .container3 {
+    height: 330px;
   }
 
   .self {
-    width: 450px;
-    height: 190px;
-    margin-top: 80px;
+    width: 250px;
+    height: 270px;
+    margin: 0px 0 0 40px;
   }
-  .container3 {
-   
-    height: 330px;
-  }
+
   .percent {
     display: inline-block;
-    margin: 0px 0px 0px 75px;
+    margin: 0px 0px 0px 105px;
     font-size: small;
   }
 
-  .bar {
-    width: 50%;
-  }
-
-  .bar2 {
-    width: 50%;
-  }
-
-  .one p{
+  .one p {
     font-size: 12px;
     text-align: center;
   }
 
-  .two p{
+  .two p {
     font-size: 12px;
     text-align: center;
   }
 
-  .three p{
+  .three p {
     font-size: 12px;
     text-align: center;
   }
 
-  .four p{
+  .four p {
     font-size: 12px;
     text-align: center;
   }
 
-  .five p{
+  .five p {
     font-size: 12px;
     text-align: center;
   }
-  h1{
+  h1 {
     font-size: 10px;
   }
+
+  .para {
+    margin-bottom: 25px;
+    font-size: 13px;
+  }
+
   .first {
-    margin-top: 50px;
-    width: 400px;
-    height: 150px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 55px;
   }
 
   .second {
-    margin-top: 50px;
-    width: 400px;
-    height: 150px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin: 40px 0 0 0;
+  }
+
+  .container6 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: burlywood;
+    padding-bottom: 90px;
+    min-height: 100vh;
+  }
+
+  .container6 h1 {
+    width: 100%;
   }
 }
